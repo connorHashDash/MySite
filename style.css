@@ -14,7 +14,6 @@ body{
 	justify-content: space-between;
 	color: white;
 	margin: 1rem;
-	border-bottom: 1px white solid;
 }
 
 .rBar{
@@ -25,25 +24,35 @@ body{
 	padding-left: 1rem;
 }
 
+.aboutBackground{
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background:url(media/placeholder.jpeg);
+}
+
 .aboutSquare{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 1020px;
+	max-width: 1090px;
+  max-height: 400px;
 	margin-left: auto;
 	margin-right: auto;
+  padding-bottom: 1rem;
+  background: #00000090;
 }
 
 .title{
 	display: flex;
 	align-items: baseline;
 	justify-content: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .titleText {
   text-align: center;
-  margin: 2px;
-  margin-top: 4rem;
   margin-left: 1rem;
   font-size: 8rem; 
   font-family: 'Open Sans', sans-serif;
@@ -71,6 +80,7 @@ body{
 
 .aboutP{
 	color: white;
+  font-size: 1.2rem;
 }
 
 .cvDiv{
