@@ -9,7 +9,7 @@ function offBlink(i){
 } 
 
 function blink(){	
-	for(i = 1; i <= 200; i++){
+	for(i = 1; i <= 400; i++){
 			offBlink(i); 
 	}
 }
