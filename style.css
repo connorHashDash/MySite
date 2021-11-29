@@ -24,8 +24,10 @@ body{
 
 .aboutBackground{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 84vh;
+  align-content: center;
+  height: 94vh;
   background-image: url(media/milky-way.jpg);
   background-position: center;
   background-size: cover;
@@ -41,6 +43,7 @@ body{
 	margin-right: auto;
   padding-bottom: 1rem;
   background: #00000090;
+  margin-top: 20vh;
 }
 
 .title{
@@ -84,44 +87,33 @@ body{
   font-size: 1.4rem;
 }
 
+.socials{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  width: 100%;
+}
+
+.social{
+  height: 64px;
+}
+
+.cvimg{
+  height: 64px;
+}
+
 div.secondSpacer{
   height: 1rem;
 }
 
-.cvDiv{
-  width: 111px;
-  height: 36px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  border: solid 1px #a9a8a8;;
-  margin-right: auto;
-  border-radius: 5px;
-  transition: 0.3s;
+div.arrowDiv{
+  margin-top: 9.5rem;
 }
 
-.cvDiv:hover{
-  background-color: #a9a8a810;
-}
-
-.cvDiv:focus{
-}
-
-.cvButton{
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-a{
-  outline: none;
-  text-decoration: none;
-  color: inherit;
-}
-
-.underCvSpace{
-  height: 2.6rem;
+img.downArrow{
+  height: 54px;
 }
 
 .portfolio{
