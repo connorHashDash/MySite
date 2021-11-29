@@ -8,4 +8,4 @@ For the domain name I used namecheap (about £7 per year) and for the hosting I 
 
 ## Visit
 
-You visit me [here](connorblack.co.uk), I'm still just playing around with layouts and mostly learning about self-hosting currently
+You visit me [here](https://connorblack.co.uk), I'm still just playing around with layouts and mostly learning about self-hosting currently
